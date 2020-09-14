@@ -1,0 +1,12 @@
+.container {
+    display: inline-block;
+}
+.grid {
+    display: grid;
+    grid-template-rows: repeat(25, 2vw);
+    grid-template-columns: repeat(50, 2vw);
+    grid-gap: 0;
+}
+.cell {
+    display: flex;
+}
